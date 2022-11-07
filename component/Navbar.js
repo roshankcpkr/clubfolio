@@ -23,7 +23,7 @@ const Navbar = ()=>{
                 <svg class="w-6 h-6" aria-hidden="true" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
             </button>
         </div>
-        {open && <div className={` justify-between items-center w-full md:flex md:w-auto md:order-1`} id="navbar-sticky">
+        {open && <div className={` md:hidden justify-between items-center w-full md:flex md:w-auto md:order-1`} id="navbar-sticky">
             <ul class={`flex flex-col p-4 mt-4 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0 dark:bg-gray-100 md:dark:bg-gray-100 dark:border-gray-100`}>
             <li>
                 <Link href="/">
