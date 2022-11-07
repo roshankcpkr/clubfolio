@@ -2,8 +2,8 @@ const TopBar = () => {
     return (
         <div className="bg-green-700 px-2 sm:px-4 py-2 w-full dark:border-gray-600">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
-                <div className="text-white text-sm sm:text-xs font-semibold"><a href="mailto:info@macithub.macpokhara.edu.np">info@macithub.macpokhara.edu.np</a></div>
-                <div className="flex justify-between items-center w-full md:flex md:w-auto">
+                <div className="text-white text-sm sm:text-xs font-semibold hover:brightness-90"><a href="mailto:info@macithub.macpokhara.edu.np">info@macithub.macpokhara.edu.np</a></div>
+                <div className="flex justify-end items-center w-full md:flex md:w-auto">
                     <a href="https://www.facebook.com/mac.it.club" target="_blank" className="text-white text-sm sm:text-xs font-semibold mr-2 hover:brightness-75"><svg
                             class="w-5 h-5 text-gray fill-current"
                             xmlns="http://www.w3.org/2000/svg"
