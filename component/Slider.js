@@ -41,10 +41,10 @@ const Sliders = () => {
               <div className="relative">
               <img src={img} alt="" />
               <div className='mt-4 absolute z-20 top-50 left-5 md:top-60 md:left-20 text-white '>
-                <h2 className='text-gray-100 font-bold text-4xl mb-4'>MacItHub</h2>
-                <p className='text-gray-100 font-semibold text-lg mb-4'> An official student club of Mount Annapurna Campus. Run by students and supported by school family.</p>
+                <h2 className='text-gray-100 font-bold text-4xl md:text-5xl mb-4 '>MacItHub</h2>
+                <p className='text-gray-100 font-semibold text-lg mb-6 md:text-2xl'> An official student club of Mount Annapurna Campus. Run by students and supported by school family.</p>
                 <Link href='/about'>
-                  <a className="border-2 inline-block px-3 py-2 hover:brightness-75">
+                  <a className="border-2 inline-block px-4 py-3 hover:bg-green-500 hover:text-gray-100 hover:border-green-500">
                     Learn More
                   </a>
                 </Link>

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import TopBar from "./TopBar"
-import HideOn from "react-hide-on-scroll"
+
 
 const Navbar = ()=>{
     return (
@@ -11,7 +11,7 @@ const Navbar = ()=>{
         <Link href="/">
         <a className="flex items-center">
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                <img src="images/weblogo.png" className="mr-3 h-12 sm:h-16  hover:animate-bounce"  alt="MacItHub logo" />
+                <img src="images/macithub.png" className="mr-3 h-12 sm:h-16  hover:animate-bounce"  alt="MacItHub logo" />
             </span>
         </a>
         </Link>

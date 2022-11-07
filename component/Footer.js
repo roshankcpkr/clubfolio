@@ -7,7 +7,7 @@ const Footer = () =>
             <div className="flex flex-col border-t-2 border-gray-500 md:flex-row justify-center md:justify-between p-4">
                 <div className="flex flex-col md:items-start items-center mb-4 w-full md:w-1/3">
                     <p className="font-semibold text-2xl text-gray-600 ">About us</p>
-                    <img src="images/weblogo.png" className="h-16"/>
+                    <img src="images/macithub.png" className="h-16"/>
                     <p className="text-sm text-gray-500 mt-2 mb-2">MacItHub is an official school club of students of Mount Annapurna campus. 
                        Established to help students learn and grow in the field of technology.
                     </p>
