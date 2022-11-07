@@ -38,6 +38,15 @@ const About = ()=>{
                 </div>
                 </div>
                 <div class="w-full relative cursor-pointer ">
+                <img class="rounded-xl w-full h-[200px] md:h-[400px] object-cover" src="/images/anita.jpg" alt="" />
+                <div class="absolute flex flex-col p-6 rounded-b-xl justify-between bottom-0 w-full h-3/3 bg-green-600 bg-opacity-70">
+                    <div class=" self-right text-center justify-between text-white">
+                        <h4 class="text-xl font-bold">Anita lamichhane</h4>
+                        <p class="mt-1 text-md font-semibold">Seventh Semester student</p>
+                    </div>
+                </div>
+                </div>
+                <div class="w-full relative cursor-pointer ">
                 <img class="rounded-xl w-full h-[200px] md:h-[400px] object-cover" src="/images/akariti.jpg" alt="" />
                 <div class="absolute flex flex-col p-6 rounded-b-xl justify-between bottom-0 w-full h-3/3 bg-green-600 bg-opacity-70">
                     <div class=" self-right text-center justify-between text-white">
