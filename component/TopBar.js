@@ -1,8 +1,6 @@
-import {HideOn} from "react-hide-on-scroll"
 
 const TopBar = () => {
     return (
-        <HideOn atHeight height={100}>
         <div id="hide"><div className=" bg-green-700 px-2 sm:px-4 py-2 w-full dark:border-gray-600">
             <div className="container flex justify-between items-center mx-auto">
                 <div className="text-white md:text-sm text-xs font-semibold hover:brightness-90"><a href="mailto:info@macithub.macpokhara.edu.np">info@macithub.macpokhara.edu.np</a></div>
@@ -32,8 +30,6 @@ const TopBar = () => {
                 </div>
             </div>
         </div></div>
-        </HideOn>
-        
     )
 }
 
