@@ -4,7 +4,7 @@ const Footer = () =>
 {
     return (
         <footer className="w-full ">
-            <div className="flex flex-col border-t-2 border-gray-500 md:flex-row justify-center md:justify-between p-4">
+            <div className="flex flex-col border-t-2 border-gray-500 md:flex-row justify-center md:justify-between p-6 md:px-16">
                 <div className="flex flex-col md:items-start items-center mb-4 w-full md:w-1/3">
                     <p className="font-semibold text-2xl text-gray-600 ">About us</p>
                     <img src="images/macithub.png" className="h-16"/>
@@ -57,7 +57,7 @@ const Footer = () =>
                 </div>
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row p-4 border-t-2 border-gray-500 justify-center md:justify-between">
+            <div className="flex flex-col md:flex-row p-4 md:px-16 border-t-2 border-gray-500 justify-center md:justify-between">
             <div className="flex justify-center mb-2 md:mb-0 items-center  w-full md:flex md:w-auto">
                     <a href="https://www.facebook.com/mac.it.club" target="_blank" className="text-white transform transition duration-500 hover:scale-125 text-sm sm:text-xs font-semibold mr-2 hover:brightness-75"><svg
                             class="w-5 h-5 text-black fill-current"
