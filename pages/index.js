@@ -32,22 +32,35 @@ function Home()
                 <img src="images/hackathons.jpg" className='mt-2 h-full rounded-xl' alt=""/>
             </div>
         </div>
-        <div className='flex justify-center flex-row items-center h-full px-4 py-2'>
+        <div className='flex justify-center flex-col items-center h-full px-4 py-2'>
             <div>
             <h2 className='font-semibold text-3xl mb-4 mt-16 text-gray-700 font-serif'>Our Events</h2>
-            <p></p>
+            <p className='text-gray-500 font-serif text-sm'>We organize various events on our school.</p>
+            <div className='flex'>
+                <div>
+                    <p>Tech Talks</p>
+                </div>
+                <div>
+                    <p>Workshops</p>
+                </div>
+                <div>
+                    <p>Hackathons</p>
+                </div>
             </div>
-            <div>
-                <p></p>
+            </div>
+            <div className='flex flex-col gap-4'>
+                <p className='text-gray-500 font-serif text-sm'>Get details about latest events and upcoming ones.</p>
+                <Link href="/events">
+                    <a>
+                        <button className='bg-green-600 text-white font-serif font-semibold px-4 py-2 rounded-2xl hover:brightness-75'>View All</button>
+                    </a>
+                </Link>
             </div>
         </div>
         <div className='flex justify-center flex-row items-center h-full px-4 py-2'>
             <div>
             <h2 className='font-semibold text-3xl mb-4 mt-16 text-gray-700 font-serif'>Gallary</h2>
             <p></p>
-            </div>
-            <div>
-                <p></p>
             </div>
         </div>
         <div className='flex justify-center flex-row justify-center items-center h-full w-full'>

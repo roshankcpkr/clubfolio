@@ -1,10 +1,11 @@
 import Link from "next/link"
 import TopBar from "./TopBar"
+import HideOn from "react-hide-on-scroll"
 
 const Navbar = ()=>{
     return (
         <div className="fixed top-0 left-0 z-20 w-full ">
-        <TopBar />
+            <TopBar />
         <nav className="bg-white px-2 sm:px-4 py-2.5 w-full">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link href="/">
